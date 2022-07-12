@@ -1,6 +1,13 @@
 Git Commands
 ============
 
+### Config
+
+| Command | Description |
+| ------- | ----------- |
+| `git config [--global, --local] [user.name, user.email]` | Set user config |
+| `git config [--list] [--global, --local]` | Check user config |
+
 ### Getting & Creating Projects
 
 | Command | Description |
