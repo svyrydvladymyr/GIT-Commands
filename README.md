@@ -7,6 +7,7 @@ Git Commands
 | ------- | ----------- |
 | `git config [--global, --local] [user.name, user.email]` | Set user config |
 | `git config [--list] [--global, --local]` | Check user config |
+| `git config [--unset] [user.name, user.email]` | Clear user config |
 
 ### Getting & Creating Projects
 
