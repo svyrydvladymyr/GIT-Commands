@@ -66,12 +66,14 @@ Git Commands
 | `git log` | View changes |
 | `git log --summary` | View changes (detailed) |
 | `git log --oneline` | View changes (briefly) |
+| `git log [--all, (branches)] --graph` | View graph |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
 
 ### Reverting commits and changes
 
 | Command | Description |
 | ------- | ----------- |
-| `git reset --hard [commit]` | The commit history will be reset to the specified commit |
+| `git reset [--hard, --soft] [commit]` | The commit history will be reset to the specified commit |
+| `git reset [--hard, --soft] ORIG_HEAD` | Will let you go back to where you were, but it will discard your local changes, which you do not want. |
 | `git revert --no-edit [commit]` | Git will create a new commit with the operation reversed from the last commit. A new commit will be added to the current branch history |
 
